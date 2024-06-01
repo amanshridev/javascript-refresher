@@ -9,3 +9,15 @@ They are like containers that holds the value. Value can be of any kind like num
 var firstName = "Name";
 
 console.log(firstName)
+
+//Let Example
+
+let lastName = "Last Name";
+
+console.log(lastName);
+
+//Const Example 
+
+const age = 28;
+
+console.log(age);
