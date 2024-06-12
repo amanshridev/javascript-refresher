@@ -7,7 +7,7 @@ Keys are strings, and values can be any type of data, including other objects, f
 or arrays. by default every key in objects is treated as a string.
 
 */
-//Example of ojects
+//Example of objects
 
 let firstObject = {
     firstName: "Aman",
@@ -30,13 +30,13 @@ let firstObject = {
 
 // console.log(firstObject["email"])
 
-//to made any changes in an object we can access the key and assined new value to it
+//to made any changes in an object we can access the key and assigned new value to it
 
 firstObject.email = "newmail@mail.com"
 
 // console.log(firstObject);
 
-//there is also a method through which we can freez our object which means that no longer updates will done to it
+//there is also a method through which we can freeze our object which means that no longer updates will done to it
 
 // Object.freeze(firstObject)
 
@@ -45,7 +45,7 @@ firstObject.email = "newmail@mail.com"
 // console.log(firstObject);
 
 
-//we ca also use funcation as a vaiable inside an object example: 
+//we ca also use function as a variable inside an object example: 
 
 firstObject.greeting = function() {
     console.log("Hello User")
