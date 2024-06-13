@@ -90,6 +90,8 @@ const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
+//object destructing is spread data of other object and create a new object
+
 // const obj3 = { obj1, obj2 }
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
