@@ -60,5 +60,24 @@ if(true){
 }
 
 
-console.log(firstName)
+// console.log(firstName)
 
+
+//Nested Scope
+
+function one() {
+
+    const userName = "Aman"
+
+    function two() {
+        const lastName = "Shrivastav"
+        console.log(userName)
+    }
+
+    // console.log(lastName)  Note: A variable out its scope cannot be access.
+
+    two()
+
+}
+
+one()
