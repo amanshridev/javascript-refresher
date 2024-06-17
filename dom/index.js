@@ -47,3 +47,30 @@ let newSelector = document.querySelector('h2');
 
 // console.log(newSelector)
 
+/* 
+
+querySelectorAll: It select the All element from the same elements present there.
+
+Example: we take 3 h2 in our html page and we will user querySelectorAll and let see what output we will 
+get
+
+*/
+
+let newSelector2 = document.querySelectorAll('h2');
+
+console.log(newSelector2)
+
+/*
+
+By default querySelectorAll give us a NodeList which some might mistake as an array but it is not
+it is similar but not an array
+*/
+
+//How to select value in a node list Example
+// newSelector2[0].style.color = "red"
+
+newSelector2.forEach( (list) => {
+   list.style.backgroundColor = "#212121";
+   list.style.color = "#fff";
+   list.style.padding = "10px";
+})
