@@ -58,7 +58,7 @@ get
 
 let newSelector2 = document.querySelectorAll('h2');
 
-console.log(newSelector2)
+// console.log(newSelector2)
 
 /*
 
@@ -74,3 +74,34 @@ newSelector2.forEach( (list) => {
    list.style.color = "#fff";
    list.style.padding = "10px";
 })
+
+
+/*
+
+getElementByClassName: as give by its name it select element by its class Name
+it dose not have forEach loop Lets take a example and see what happens
+
+*/
+
+let listWork = document.getElementsByClassName("list-items")
+
+// listWork.forEach( function (list) {
+//    list.style.fontSize = "200px";
+// })
+
+/*
+
+This doesn't work because 
+So what will work we need to convert it to an array by using Array method
+
+*/
+
+let arrList = Array.from(listWork)
+
+//Now this will work
+
+arrList.map( (list) => {
+   return list.style.fontSize = "50px"
+})
+
+console.log(arrList)
