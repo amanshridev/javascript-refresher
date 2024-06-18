@@ -91,7 +91,7 @@ let listWork = document.getElementsByClassName("list-items")
 
 /*
 
-This doesn't work because 
+This doesn't work because this in not an array
 So what will work we need to convert it to an array by using Array method
 
 */
@@ -105,3 +105,4 @@ arrList.map( (list) => {
 })
 
 console.log(arrList)
+
