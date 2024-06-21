@@ -16,11 +16,6 @@ xsr.onreadystatechange = function () {
         let userName = document.createTextNode(`${data.name}`);
         h1.appendChild(userName);
         document.body.appendChild(h1);
-    }else {
-        let h1 = document.createElement('h1');
-        let userName = document.createTextNode(`Failed To Fetch`);
-        h1.appendChild(userName);
-        document.body.appendChild(h1);
     }
 }
 
