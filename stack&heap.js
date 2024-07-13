@@ -6,11 +6,11 @@ Type of memory
 1) Stack (Premetive)
 2) Heap  (Non-Premetive)
 
-Stack Memory: when every we declare a variable and assiend any data to it 
+Stack Memory: In Stack memory, when ever we declare a variable and assiend any data to it 
 
 ex: ===>> let firstName = "Aman";
 
-we get the copy of this data when ever we made any changes to it.
+we get the copy of this data, and when we made any changes to it. the original data didn't get updated
 
 
 */
@@ -37,7 +37,7 @@ console.log(firstName);
 
 /*
 
-Heap Memory: when every we declare any objects or array when its new data inserted the original
+Heap Memory: when every we declare any objects or array when new data inserted the original
 data get also effected 
 
 ex: ===>> let users = {
